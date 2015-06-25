@@ -1,0 +1,3 @@
+	<div id="cchin">
+		<input name="t" type="cchin" value="">
+	</div>
