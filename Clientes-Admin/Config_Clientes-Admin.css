@@ -1,11 +1,8 @@
-.menu{
-	display: none;
-}
 #menu{
-	margin: 0 0 0 0;
-	position: top fixed;
+	/*margin: -6.5px -8px 0 -8px;*/
+	position: full-top fixed;
 	background-color: #ff8c00;
-	border: 2px solid black;
+	border: 1px solid black;
 	border-radius: 1px;
 	padding: 8px 0 5px 0;
 	font-family: Arial Helvetica sans-serif;
@@ -30,15 +27,11 @@
 	border-radius: 2px;
 	background-color: white;
 }
-
-.img-aligncenter{
-
-}
-.img-menu{
+.label{
 	font-family: 12px Arial Helvetica sans-serif;
-	color: black;
-	margin: 0 20% 0 20%;
+	color: blue;
+	width: 2px;
+	height: 4px;
+	margin: 0 0 0 0;
 	border: none;
-	position: center;
-
 }

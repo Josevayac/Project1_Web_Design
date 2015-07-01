@@ -1,6 +1,6 @@
 #login-box {
 	margin-left: 400px;
-	margin-top: 100px;
+	margin-top: 50px;
 	width:500px;
 	height: 400px;
 	border: 5px solid #ff8c00;
@@ -52,7 +52,6 @@ h2 {
 	margin:0;
 	margin:0 0 7px 0;
 }
-
 .form-login  {
 	width: 200px;
 	padding: 10px 4px 6px 3px;
@@ -62,13 +61,16 @@ h2 {
 	color: #ebebeb;
 }
 
-#boton{
-	font: 12px Arial, Helvetica, sans-serif;
-	color: white;
-	margin: 120px 50px 0 0;
-	width: 500px;
-	height: 60px;
-
-
-
+.boton{
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #ff8c00;
+	margin-top: 10px;
+	margin-right: 180px;
+	border: 0px;
+	border-radius: 3px;
+	width: 80px;
+	height: 40px;
 }
