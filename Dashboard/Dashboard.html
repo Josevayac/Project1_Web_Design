@@ -2,41 +2,53 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<meta>
 	<title>Chamberos.NET-Dashboard</title>
 	<link rel="stylesheet" type="text/css" href="Config_Dashboard.css"/>
 </head>
 <body>
-	<header>
-		<form id="menu" content=url"../Dashboard/Images/User64.png">
-			<div id="boton">
-				<input name="menu-clientes" class="boton1"  type="submit" value="CLIENTES">
-				<input name="menu-chambas" class="boton1"  type="submit" value="CHAMBAS">
-				<input name="menu-invoices" class="boton1"  type="submit" value="INVOICES">
-			</div>
-		</form>
+	<header>		
 		<div id="menu">
-			<div class="img-menu">
-				<a href="#" class="img-menu">
-					<img src="../Dashboard/Images/users128.png"/>
-				</a>
-			</div>
-			<div class="img-menu">
-				<a href="#" class="">
-					<img src="../Dashboard/Images/chambas128.png"/>
-				</a>
-			</div>
-			<div class="img-menu">
-				<a href="#" class="img-menu">
-					<img src="../Dashboard/Images/invoices128.png"/>
-				</a>
-			</div>
-
+			<nav id="nav">
+				<ul class="ul">
+					<li class="boton1">
+						<a href="..//Clientes-Admin/Clientes-Admin.html">CLIENTES</a>
+					</li>
+					<li class="boton1">
+						<a href="..//Chambas/Chambas.html">CHAMBAS</a>
+					</li>
+					<li class="boton1">
+						<a href="..//Invoices/Invoices.html">INVOICES</a>
+					</li>
+				</ul>
+			</nav>
+			<p id="saludo">Hi Josema</p>
+			<img id="saludo" src="..//IMAGES/male-circle-48.png">
 		</div>
-		<nav>
-		</nav>
-
-
 	</header>
+	<div class="img1">		
+		<tr>
+			<td><a href="..//Clientes-Admin/Clientes-Admin.html"><img class="img1" src="..//IMAGES/users128.png" alt="CLIENTES"></a></td>
+			<td><img class="img1" src="..//IMAGES/chambas128.png" alt="CHAMBAS"></td>
+			<td><img class="img1" src="..//IMAGES/invoices128.png" alt="INVOICES"></td>
+		</tr>
+
+	</div>
+
 </body>
 </html>
+
+
+
+
+
+				 <!-- Insertar aquí mas Metatags
+				<form id="form" action="..//Clientes-Admin/Clientes-Admin.html">			
+					<input name="menu-clientes" class="boton1"  type="submit" value="CLIENTES"/>
+				</form>
+				<form id="form" action="..//Chambas/Chambas.html">
+					<input name="menu-chambas" class="boton1"  type="submit" value="CHAMBAS"/>
+				</form>
+				<form id="form" action="..//Invoices/Invoices.html">
+					<input name="menu-invoices" class="boton1"  type="submit" value="INVOICES"/>
+				</form>	
+			-->
